@@ -27,6 +27,7 @@ let package = Package(
                         "KeychainAccess",
                         "SnapKit",
                         .product(name: "ComponentKit", package: "ComponentKit.Swift"),
+                        .product(name: "LanguageKit", package: "LanguageKit.Swift"),
                         .product(name: "ThemeKit", package: "ThemeKit.Swift"),
                     ]
             ),
